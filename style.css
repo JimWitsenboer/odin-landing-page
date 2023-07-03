@@ -1,0 +1,211 @@
+:root {
+  --dark-bg-color: #1F2937;
+  --secondary-txt-color: #E5E7EB;
+  --main-txt-color: #F9FAF8;
+  --additional-txt-color: #1F2937;
+  --btn-bg-color: #3882F6;
+}
+
+body{
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--main-txt-color);
+}
+
+/* NAVBAR */
+.navbar{
+  width: 70%;
+  background-color: var(--dark-bg-color);
+  display: flex;
+  align-items: center;
+  padding: 10px 15% 10px 15%;
+  position: fixed;
+}
+
+.navbar a{
+  text-decoration: none !important;
+  color: var(--secondary-txt-color);
+}
+
+.header__logo__txt{
+  color: var(--main-txt-color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav__item__logo{
+  flex: 3;
+}
+.nav__item__link{
+  flex: 1;
+  text-align: right;
+}
+
+
+/* Hero section */
+.hero__section{
+  background-color: var(--dark-bg-color);
+}
+
+.hero__section{
+  display: flex;
+  padding: 10% 10%;
+  align-items: center;
+}
+
+.header__title h1{
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+}
+
+.hero__content__text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: var(--secondary-txt-color)
+}
+
+.main__button{
+  background-color: var(--btn-bg-color);
+  padding: 8px 15px;
+  border-radius: 3px;
+  color: var(--main-txt-color);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.header__subtitle p{
+  color: rgba(223, 222, 222, 0.855);
+  width: 80%;
+  font-weight: 400;
+  margin-top: 0px;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 10px;
+
+}
+
+.header__image img {
+  object-fit: cover;
+  height: 20vw;
+}
+
+/* Blurb section */
+.blurb__section{
+  padding: 0px 0px 10% 0px;
+}
+
+.blurb__items{
+  display: flex;
+  padding: 0px 20%;
+  justify-content: space-around;
+}
+
+.blurb__item{
+}
+
+.blurb__icon{
+  border: 4px solid var(--btn-bg-color);
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.blurb__title h2{
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.blurb__content p{
+  width: 150px;
+  text-align: center;
+}
+
+
+/* Information */
+.info__header__txt{
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  color: var(--additional-txt-color)
+}
+
+.quote__section{
+  background-color: var(--secondary-txt-color);
+  padding: 5% 26%;
+}
+
+.quote__section__txt{
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  color: var(--additional-txt-color);
+  font-weight: 200;
+}
+
+.quote__author p{
+  text-align: right;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+
+}
+
+/* Call to action section */
+.cta__section{
+  display: flex;
+  justify-content: center;
+}
+
+.cta__content{
+  background-color: var(--btn-bg-color);
+  color: var(--secondary-txt-color);
+  border-radius: 10px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 10%;
+  margin: 50px 0px;
+}
+
+.cta__content h3 {
+  font-size: 26px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+
+}
+
+.cta__button a{
+  background-color: var(--btn-bg-color);
+  padding: 8px 30px;
+  border-radius: 10px;
+  border: 2px solid white;
+  color: var(--main-txt-color);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer{
+  background-color: var(--dark-bg-color);
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.footer__text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: var(--secondary-txt-color);
+  padding: 0.5% 0px;
+}
